@@ -34,7 +34,7 @@ return [
      * the headers of the webhook request. A webhook client can use the signature
      * to verify the request hasn't been tampered with.
      */
-    'signer' => \Luigel\Paymongo\Signer\DefaultSigner::class,
+    'signer' => \ABO\Paymongo\Signer\DefaultSigner::class,
 
     /**
      * Paymongo webhooks signature secret.
@@ -61,5 +61,5 @@ return [
      *
      * Choices are: Paymongo::AMOUNT_TYPE_FLOAT, or Paymongo::AMOUNT_TYPE_INT
      */
-    'amount_type' => \Luigel\Paymongo\Paymongo::AMOUNT_TYPE_FLOAT,
+    'amount_type' => \ABO\Paymongo\Paymongo::AMOUNT_TYPE_FLOAT,
 ];
