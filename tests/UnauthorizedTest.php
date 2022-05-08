@@ -1,9 +1,9 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\Exceptions\UnauthorizedException;
-use Luigel\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Exceptions\UnauthorizedException;
+use ABO\Paymongo\Facades\Paymongo;
 
 class UnauthorizedTest extends BaseTestCase
 {

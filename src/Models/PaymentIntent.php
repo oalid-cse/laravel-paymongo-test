@@ -1,8 +1,8 @@
 <?php
 
-namespace Luigel\Paymongo\Models;
+namespace ABO\Paymongo\Models;
 
-use Luigel\Paymongo\Paymongo;
+use ABO\Paymongo\Paymongo;
 
 class PaymentIntent extends BaseModel
 {
@@ -14,7 +14,7 @@ class PaymentIntent extends BaseModel
     /**
      * @param  string  $paymentMethodId
      * @param  string|null  $returnUrl
-     * @return \Luigel\Paymongo\Models\BaseModel
+     * @return \ABO\Paymongo\Models\BaseModel
      */
     public function attach($paymentMethodId, $returnUrl = null)
     {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\Exceptions\BadRequestException;
-use Luigel\Paymongo\Exceptions\NotFoundException;
-use Luigel\Paymongo\Facades\Paymongo;
-use Luigel\Paymongo\Models\PaymentIntent;
+use ABO\Paymongo\Exceptions\BadRequestException;
+use ABO\Paymongo\Exceptions\NotFoundException;
+use ABO\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Models\PaymentIntent;
 
 class PaymentIntentTest extends BaseTestCase
 {
@@ -23,13 +23,13 @@ class PaymentIntentTest extends BaseTestCase
                 ],
             ],
             'description' => 'This is a test payment intent',
-            'statement_descriptor' => 'LUIGEL STORE',
+            'statement_descriptor' => 'ABO STORE',
             'currency' => 'PHP',
         ]);
 
         $this->assertEquals(100.00, $paymentIntent->amount);
         $this->assertEquals('awaiting_payment_method', $paymentIntent->status);
-        $this->assertTrue($paymentIntent->statement_descriptor === 'LUIGEL STORE');
+        $this->assertTrue($paymentIntent->statement_descriptor === 'ABO STORE');
         $this->assertTrue($paymentIntent->type === 'payment_intent');
 
         $this->assertInstanceOf(PaymentIntent::class, $paymentIntent);
@@ -57,7 +57,7 @@ class PaymentIntentTest extends BaseTestCase
                 ],
             ],
             'description' => 'This is a test payment intent',
-            'statement_descriptor' => 'LUIGEL STORE',
+            'statement_descriptor' => 'ABO STORE',
             'currency' => 'PHP',
         ]);
 
@@ -82,7 +82,7 @@ class PaymentIntentTest extends BaseTestCase
                     ],
                 ],
                 'description' => 'This is a test payment intent',
-                'statement_descriptor' => 'LUIGEL STORE',
+                'statement_descriptor' => 'ABO STORE',
                 'currency' => 'PHP',
             ]);
 
@@ -138,7 +138,7 @@ class PaymentIntentTest extends BaseTestCase
                     ],
                 ],
                 'description' => 'This is a test payment intent',
-                'statement_descriptor' => 'LUIGEL STORE',
+                'statement_descriptor' => 'ABO STORE',
                 'currency' => 'PHP',
             ]);
 
@@ -162,7 +162,7 @@ class PaymentIntentTest extends BaseTestCase
                     ],
                 ],
                 'description' => 'This is a test payment intent',
-                'statement_descriptor' => 'LUIGEL STORE',
+                'statement_descriptor' => 'ABO STORE',
                 'currency' => 'PHP',
             ]);
 

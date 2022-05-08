@@ -1,17 +1,17 @@
 <?php
 
-namespace Luigel\Paymongo\Traits;
+namespace ABO\Paymongo\Traits;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
-use Luigel\Paymongo\Exceptions\AmountTypeNotSupportedException;
-use Luigel\Paymongo\Exceptions\BadRequestException;
-use Luigel\Paymongo\Exceptions\NotFoundException;
-use Luigel\Paymongo\Exceptions\PaymentErrorException;
-use Luigel\Paymongo\Exceptions\UnauthorizedException;
-use Luigel\Paymongo\Models\BaseModel;
-use Luigel\Paymongo\Models\PaymentIntent;
-use Luigel\Paymongo\Models\Webhook;
+use ABO\Paymongo\Exceptions\AmountTypeNotSupportedException;
+use ABO\Paymongo\Exceptions\BadRequestException;
+use ABO\Paymongo\Exceptions\NotFoundException;
+use ABO\Paymongo\Exceptions\PaymentErrorException;
+use ABO\Paymongo\Exceptions\UnauthorizedException;
+use ABO\Paymongo\Models\BaseModel;
+use ABO\Paymongo\Models\PaymentIntent;
+use ABO\Paymongo\Models\Webhook;
 
 trait Request
 {
@@ -166,10 +166,10 @@ trait Request
      *
      * @return mixed
      *
-     * @throws \Luigel\Paymongo\Exceptions\BadRequestException
-     * @throws \Luigel\Paymongo\Exceptions\UnauthorizedException
-     * @throws \Luigel\Paymongo\Exceptions\PaymentErrorException
-     * @throws \Luigel\Paymongo\Exceptions\NotFoundException
+     * @throws \ABO\Paymongo\Exceptions\BadRequestException
+     * @throws \ABO\Paymongo\Exceptions\UnauthorizedException
+     * @throws \ABO\Paymongo\Exceptions\PaymentErrorException
+     * @throws \ABO\Paymongo\Exceptions\NotFoundException
      */
     protected function request()
     {
@@ -250,7 +250,7 @@ trait Request
      * @param  array  $payload
      * @return array
      *
-     * @throws \Luigel\Paymongo\Exceptions\AmountTypeNotSupportedException
+     * @throws \ABO\Paymongo\Exceptions\AmountTypeNotSupportedException
      */
     protected function convertPayloadAmountsToInteger($payload)
     {

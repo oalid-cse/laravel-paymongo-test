@@ -1,6 +1,6 @@
 <?php
 
-namespace Luigel\Paymongo\Traits;
+namespace ABO\Paymongo\Traits;
 
 use Illuminate\Support\Facades\Validator;
 

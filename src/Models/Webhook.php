@@ -1,8 +1,8 @@
 <?php
 
-namespace Luigel\Paymongo\Models;
+namespace ABO\Paymongo\Models;
 
-use Luigel\Paymongo\Paymongo;
+use ABO\Paymongo\Paymongo;
 
 class Webhook extends BaseModel
 {

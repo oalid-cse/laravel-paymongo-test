@@ -1,9 +1,9 @@
 <?php
 
-namespace Luigel\Paymongo\Commands;
+namespace ABO\Paymongo\Commands;
 
 use Illuminate\Console\Command;
-use Luigel\Paymongo\Traits\HasWebhooksTable;
+use ABO\Paymongo\Traits\HasWebhooksTable;
 
 class WebhookListCommand extends Command
 {

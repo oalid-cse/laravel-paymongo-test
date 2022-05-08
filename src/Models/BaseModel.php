@@ -1,10 +1,10 @@
 <?php
 
-namespace Luigel\Paymongo\Models;
+namespace ABO\Paymongo\Models;
 
 use Exception;
 use Illuminate\Support\Str;
-use Luigel\Paymongo\Exceptions\MethodNotFoundException;
+use ABO\Paymongo\Exceptions\MethodNotFoundException;
 
 class BaseModel
 {
@@ -167,7 +167,7 @@ class BaseModel
      * @param  mixed  $currentAttribute
      * @return mixed
      *
-     * @throws \Luigel\Paymongo\Exceptions\MethodNotFoundException
+     * @throws \ABO\Paymongo\Exceptions\MethodNotFoundException
      */
     protected function getGuessedData($key, $currentAttribute)
     {
@@ -201,7 +201,7 @@ class BaseModel
      *
      * @return void
      *
-     * @throws \Luigel\Paymongo\Exceptions\MethodNotFoundException
+     * @throws \ABO\Paymongo\Exceptions\MethodNotFoundException
      */
     protected function throwMethodNotFoundException()
     {

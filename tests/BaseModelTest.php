@@ -1,8 +1,8 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\Models\BaseModel;
+use ABO\Paymongo\Models\BaseModel;
 
 class BaseModelTest extends BaseTestCase
 {

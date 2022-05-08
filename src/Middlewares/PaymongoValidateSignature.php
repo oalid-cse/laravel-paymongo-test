@@ -1,10 +1,10 @@
 <?php
 
-namespace Luigel\Paymongo\Middlewares;
+namespace ABO\Paymongo\Middlewares;
 
 use Closure;
 use Illuminate\Routing\Exceptions\InvalidSignatureException;
-use Luigel\Paymongo\Signer\Signer;
+use ABO\Paymongo\Signer\Signer;
 
 class PaymongoValidateSignature
 {

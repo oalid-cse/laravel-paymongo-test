@@ -1,13 +1,13 @@
 <?php
 
-namespace Luigel\Paymongo;
+namespace ABO\Paymongo;
 
 use Illuminate\Support\ServiceProvider;
-use Luigel\Paymongo\Commands\WebhookAddCommand;
-use Luigel\Paymongo\Commands\WebhookListCommand;
-use Luigel\Paymongo\Commands\WebhookToggleCommand;
-use Luigel\Paymongo\Middlewares\PaymongoValidateSignature;
-use Luigel\Paymongo\Signer\Signer;
+use ABO\Paymongo\Commands\WebhookAddCommand;
+use ABO\Paymongo\Commands\WebhookListCommand;
+use ABO\Paymongo\Commands\WebhookToggleCommand;
+use ABO\Paymongo\Middlewares\PaymongoValidateSignature;
+use ABO\Paymongo\Signer\Signer;
 
 class PaymongoServiceProvider extends ServiceProvider
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\Facades\Paymongo;
-use Luigel\Paymongo\Models\Source;
+use ABO\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Models\Source;
 
 class SourceTest extends BaseTestCase
 {

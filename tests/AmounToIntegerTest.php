@@ -1,10 +1,10 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\Exceptions\AmountTypeNotSupportedException;
-use Luigel\Paymongo\Paymongo;
-use Luigel\Paymongo\Traits\Request;
+use ABO\Paymongo\Exceptions\AmountTypeNotSupportedException;
+use ABO\Paymongo\Paymongo;
+use ABO\Paymongo\Traits\Request;
 
 class AmounToIntegerTest extends BaseTestCase
 {

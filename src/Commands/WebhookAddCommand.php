@@ -1,11 +1,11 @@
 <?php
 
-namespace Luigel\Paymongo\Commands;
+namespace ABO\Paymongo\Commands;
 
 use Illuminate\Console\Command;
-use Luigel\Paymongo\Facades\Paymongo;
-use Luigel\Paymongo\Models\Webhook;
-use Luigel\Paymongo\Traits\HasCommandValidation;
+use ABO\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Models\Webhook;
+use ABO\Paymongo\Traits\HasCommandValidation;
 
 class WebhookAddCommand extends Command
 {

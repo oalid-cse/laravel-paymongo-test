@@ -1,6 +1,6 @@
 <?php
 
-namespace Luigel\Paymongo\Exceptions;
+namespace ABO\Paymongo\Exceptions;
 
 use Exception;
 use Throwable;

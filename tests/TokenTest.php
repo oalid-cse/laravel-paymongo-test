@@ -1,10 +1,10 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\Exceptions\BadRequestException;
-use Luigel\Paymongo\Facades\Paymongo;
-use Luigel\Paymongo\Models\Token;
+use ABO\Paymongo\Exceptions\BadRequestException;
+use ABO\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Models\Token;
 
 class TokenTest extends BaseTestCase
 {

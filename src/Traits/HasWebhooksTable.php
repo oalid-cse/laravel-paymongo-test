@@ -1,8 +1,8 @@
 <?php
 
-namespace Luigel\Paymongo\Traits;
+namespace ABO\Paymongo\Traits;
 
-use Luigel\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Facades\Paymongo;
 
 trait HasWebhooksTable
 {

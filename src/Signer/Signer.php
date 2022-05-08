@@ -1,6 +1,6 @@
 <?php
 
-namespace Luigel\Paymongo\Signer;
+namespace ABO\Paymongo\Signer;
 
 interface Signer
 {

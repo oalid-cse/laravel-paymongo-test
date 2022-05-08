@@ -1,15 +1,15 @@
 <?php
 
-namespace Luigel\Paymongo;
+namespace ABO\Paymongo;
 
-use Luigel\Paymongo\Models\Payment;
-use Luigel\Paymongo\Models\PaymentIntent;
-use Luigel\Paymongo\Models\PaymentMethod;
-use Luigel\Paymongo\Models\Source;
-use Luigel\Paymongo\Models\Token;
-use Luigel\Paymongo\Models\Webhook;
-use Luigel\Paymongo\Traits\HasToggleWebhook;
-use Luigel\Paymongo\Traits\Request;
+use ABO\Paymongo\Models\Payment;
+use ABO\Paymongo\Models\PaymentIntent;
+use ABO\Paymongo\Models\PaymentMethod;
+use ABO\Paymongo\Models\Source;
+use ABO\Paymongo\Models\Token;
+use ABO\Paymongo\Models\Webhook;
+use ABO\Paymongo\Traits\HasToggleWebhook;
+use ABO\Paymongo\Traits\Request;
 
 class Paymongo
 {

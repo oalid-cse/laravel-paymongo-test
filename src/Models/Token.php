@@ -1,6 +1,6 @@
 <?php
 
-namespace Luigel\Paymongo\Models;
+namespace ABO\Paymongo\Models;
 
 class Token extends BaseModel
 {

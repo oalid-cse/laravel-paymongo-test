@@ -1,10 +1,10 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Exceptions\InvalidSignatureException;
-use Luigel\Paymongo\Middlewares\PaymongoValidateSignature;
+use ABO\Paymongo\Middlewares\PaymongoValidateSignature;
 
 class PaymongoValidateSignatureTest extends BaseTestCase
 {

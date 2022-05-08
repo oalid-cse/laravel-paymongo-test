@@ -1,12 +1,12 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
 use Illuminate\Support\Collection;
-use Luigel\Paymongo\Exceptions\BadRequestException;
-use Luigel\Paymongo\Exceptions\NotFoundException;
-use Luigel\Paymongo\Facades\Paymongo;
-use Luigel\Paymongo\Models\Payment;
+use ABO\Paymongo\Exceptions\BadRequestException;
+use ABO\Paymongo\Exceptions\NotFoundException;
+use ABO\Paymongo\Facades\Paymongo;
+use ABO\Paymongo\Models\Payment;
 
 class PaymentTest extends BaseTestCase
 {

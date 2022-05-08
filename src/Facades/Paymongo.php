@@ -1,16 +1,16 @@
 <?php
 
-namespace Luigel\Paymongo\Facades;
+namespace ABO\Paymongo\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \Luigel\Paymongo\Paymongo payment()
- * @method static \Luigel\Paymongo\Paymongo paymentIntent()
- * @method static \Luigel\Paymongo\Paymongo source()
- * @method static \Luigel\Paymongo\Paymongo webhook()
- * @method static \Luigel\Paymongo\Paymongo paymentMethod()
- * @method static \Luigel\Paymongo\Paymongo token() @deprecated 1.2.0
+ * @method static \ABO\Paymongo\Paymongo payment()
+ * @method static \ABO\Paymongo\Paymongo paymentIntent()
+ * @method static \ABO\Paymongo\Paymongo source()
+ * @method static \ABO\Paymongo\Paymongo webhook()
+ * @method static \ABO\Paymongo\Paymongo paymentMethod()
+ * @method static \ABO\Paymongo\Paymongo token() @deprecated 1.2.0
  * @method static mixed create(array $payload)
  * @method static mixed find(string $id)
  * @method static mixed all()

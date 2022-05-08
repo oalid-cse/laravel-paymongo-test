@@ -1,8 +1,8 @@
 <?php
 
-namespace Luigel\Paymongo\Tests;
+namespace ABO\Paymongo\Tests;
 
-use Luigel\Paymongo\PaymongoServiceProvider;
+use ABO\Paymongo\PaymongoServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class BaseTestCase extends TestCase

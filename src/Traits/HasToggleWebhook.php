@@ -1,9 +1,9 @@
 <?php
 
-namespace Luigel\Paymongo\Traits;
+namespace ABO\Paymongo\Traits;
 
 use Illuminate\Database\Eloquent\Model;
-use Luigel\Paymongo\Models\Webhook;
+use ABO\Paymongo\Models\Webhook;
 
 trait HasToggleWebhook
 {
